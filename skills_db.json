@@ -1,0 +1,32 @@
+{
+  "python": {
+    "course_name": "Python for Everybody Specialization",
+    "course_link": "https://www.coursera.org/specializations/python",
+    "estimated_hours": 20,
+    "project_idea": "Build a REST API using FastAPI to serve model predictions."
+  },
+  "react": {
+    "course_name": "Full Stack Open - React",
+    "course_link": "https://fullstackopen.com/en/",
+    "estimated_hours": 25,
+    "project_idea": "Create a modern dashboard displaying analytics charts."
+  },
+  "machine learning": {
+    "course_name": "Machine Learning by Andrew Ng",
+    "course_link": "https://www.coursera.org/learn/machine-learning",
+    "estimated_hours": 40,
+    "project_idea": "Train a classification model using scikit-learn on Kaggle dataset."
+  },
+  "sql": {
+    "course_name": "SQL for Data Science",
+    "course_link": "https://www.coursera.org/learn/sql-for-data-science",
+    "estimated_hours": 15,
+    "project_idea": "Design an e-commerce schema with complex queries."
+  },
+  "docker": {
+    "course_name": "Docker Beginner Tutorial",
+    "course_link": "https://docker-curriculum.com/",
+    "estimated_hours": 10,
+    "project_idea": "Containerize a Python Web application with Dockerfile."
+  }
+}
