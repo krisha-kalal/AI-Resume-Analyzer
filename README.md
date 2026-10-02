@@ -83,10 +83,9 @@ AI-Resume-Analyzer/
 
 $$
 \text{Overall Fit Score} = (0.50 \times S_{\text{skills}}) + (0.30 \times S_{\text{exp}}) + (0.20 \times S_{\text{edu}})
-
+$$
 | **Evaluation Metric**   | **Component Weight** | **Analysis Technique**                                           |
 | ----------------------- | -------------------- | ---------------------------------------------------------------- |
 | **Hard Skills Match**   | **50%**              | TF-IDF Vectorization & Cosine Similarity on extracted skill sets |
 | **Experience Fit**      | **30%**              | Quantitative regex parsing against target role requirements      |
 | **Education Alignment** | **20%**              | Degree hierarchy validation (B.Tech, M.Tech, MCA, etc.)          |
-$$
