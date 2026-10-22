@@ -68,19 +68,8 @@ def extract_skills(text):
   extracted = []
   text_lower = text.lower()
   known_skills = [
-      "python",
-      "react",
-      "java",
-      "c++",
-      "machine learning",
-      "sql",
-      "docker",
-      "node.js",
-      "html",
-      "css",
-      "javascript",
-      "nlp",
-      "express.js",
+      "python", "react", "java", "c++", "machine learning", "sql", "docker", "node.js", "html", "css", 
+      "javascript", "nlp", "express.js"
   ]
   for skill in known_skills:
     if re.search(r"\b" + re.escape(skill) + r"\b", text_lower):
